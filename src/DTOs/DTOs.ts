@@ -9,3 +9,8 @@ export interface IResult {
 export interface IResultExtended extends IResult {
     tags: string[];
 }
+
+export interface IOptionTags {
+    id: string;
+    tags: string[];
+}

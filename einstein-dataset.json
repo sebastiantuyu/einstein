@@ -2,86 +2,156 @@
     "dataset": [
         {
             "id": "1",
-            "title": "Random image 1",
+            "title": "Beach & People",
             "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
-            "photo": "https://picsum.photos/200/300",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946730/nathana-reboucas-ABMySCWKTeY-unsplash_uy0paw.jpg",
             "tags": [
-                "cat",
-                "green",
-                "bath",
-                "bubles",
-                "kitty"
+                "beach",
+                "people",
+                "water",
+                "blue",
+                "sand"
             ]
         },
         {
             "id": "2",
-            "title": "Random image 2",
+            "title": "Keyboard & Coffee",
             "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
-            "photo": "https://picsum.photos/200/300",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946726/sincerely-media-cgM1tEyVlIU-unsplash_rpec7b.jpg",
             "tags": [
-                "cat",
-                "green",
-                "bath",
-                "bubles",
-                "kitty"
+                "tech",
+                "keyboard",
+                "coffee",
+                "gray",
+                "white"
             ]
         },
         {
             "id": "3",
-            "title": "Random image 3",
+            "title": "Mountains and snow",
             "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
-            "photo": "https://picsum.photos/200/300",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946726/masood-aslami-C9FkiFKl2s8-unsplash_wp0vb0.jpg",
             "tags": [
-                "cat",
-                "green",
-                "bath",
-                "bubles",
-                "kitty"
+                "threes",
+                "brown",
+                "streets",
+                "snow",
+                "winter"
             ]
         },
         {
             "id": "4",
-            "title": "Random image 4",
+            "title": "Juice and drinks",
             "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
-            "photo": "https://picsum.photos/200/300",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946725/visual-stories-micheile-Lb1BqFJOock-unsplash_zqvjbr.jpg",
             "tags": [
-                "cat",
-                "green",
-                "bath",
-                "bubles",
-                "kitty"
+                "pink",
+                "drink",
+                "plants",
+                "alcohol",
+                "australian"
             ]
         },
         {
             "id": "5",
-            "title": "Random image 5",
+            "title": "Somebody cooking",
             "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
-            "photo": "https://picsum.photos/200/300",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946723/jason-briscoe-7MAjXGUmaPw-unsplash_aqkoae.jpg",
             "tags": [
-                "cat",
-                "green",
-                "bath",
-                "bubles",
-                "kitty"
+                "cook",
+                "orange",
+                "marble",
+                "kitchen",
+                "women"
             ]
         },
         {
             "id": "6",
-            "title": "Random image 6",
+            "title": "Office and computers",
             "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
-            "photo": "https://picsum.photos/200/300",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946724/microsoft-365-bsy0-z5RTfk-unsplash_lwfyet.jpg",
             "tags": [
-                "cat",
+                "computer",
+                "laptop",
+                "agenda",
+                "painting",
+                "table"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Farm and snow",
+            "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946723/clay-banks-qp676I8xLA8-unsplash_phnymt.jpg",
+            "tags": [
+                "farm",
+                "red",
+                "car",
+                "three",
+                "mountains"
+            ]
+        },
+        {
+            "id": "8",
+            "title": "Office in front of a lake",
+            "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946722/kristin-wilson-z3htkdHUh5w-unsplash_apy58p.jpg",
+            "tags": [
+                "lake",
+                "grass",
+                "window",
+                "office",
+                "chairs"
+            ]
+        },
+        {
+            "id": "9",
+            "title": "Minimalist furniture",
+            "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644946721/sarah-dorweiler-QeVmJxZOv3k-unsplash_t7z1qi.jpg",
+            "tags": [
+                "plant",
+                "glass",
+                "macbook",
+                "table",
+                "minimalist"
+            ]
+        },
+        {
+            "id": "10",
+            "title": "Person and dog",
+            "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644945746/cld-sample.jpg",
+            "tags": [
+                "dog",
+                "pink",
+                "women",
+                "person",
+                "smile"
+            ]
+        },
+        {
+            "id": "11",
+            "title": "Flowers",
+            "shortDescription": "Curabitur ante turpis, vehicula sed tellus quis, ultricies semper metus.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in pulvinar orci. Integer sed metus quis justo bibendum venenatis. Vestibulum vitae sem dolor. Pellentesque eget purus massa.",
+            "photo": "https://res.cloudinary.com/dwd2eaext/image/upload/v1644945722/sample.jpg",
+            "tags": [
+                "flowers",
+                "yellow",
                 "green",
-                "bath",
-                "bubles",
-                "kitty"
+                "field",
+                "bee"
             ]
         }
     ]

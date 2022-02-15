@@ -31,9 +31,10 @@ let db_ = new sqlite3.Database("einstein.sqlite", (error: any) => {
         db_.run(initalMigration_00, (error: any) => {
             if(!error) {
                 console.log("Building options database...")
-                const autoMigration = "INSERT INTO OPTIONS (PHOTO, SHORT_DESCRIPTION, DESCRIPTION, TITLE) VALUES (?, ?, ?, ?)";
+                const autoMigration = "INSERT INTO OPTIONS (ID, PHOTO, SHORT_DESCRIPTION, DESCRIPTION, TITLE) VALUES (?, ?, ?, ?, ?)";
                 (dataSet.dataset as IResultExtended[]).map((item: IResultExtended) => {
-                    db_.run(autoMigration, [item.photo, item.shortDescription, item.description, item.title]);
+                    console.log([item.id, item.photo, item.shortDescription, item.description, item.title])
+                    db_.run(autoMigration, [item.id, item.photo, item.shortDescription, item.description, item.title]);
                 })
             }
         })
@@ -43,9 +44,16 @@ let db_ = new sqlite3.Database("einstein.sqlite", (error: any) => {
                 console.log("Building tags database...")
                 const autoMigration = "INSERT INTO TAGS (OPTION_ID, TAG_0, TAG_1, TAG_2, TAG_3, TAG_4) VALUES (?, ?, ?, ?, ?, ?)";
                 (dataSet.dataset as IResultExtended[]).map((item: IResultExtended) => {
+                    console.log([parseInt(item.id), item.tags[0], item.tags[1], item.tags[2], item.tags[3], item.tags[4]])
                     db_.run(autoMigration, [parseInt(item.id), item.tags[0], item.tags[1], item.tags[2], item.tags[3], item.tags[4]]);
                 })
             }
         })
+    }
+})
+
+db_.close((error: any) => {
+    if(error) {
+        console.error(error)
     }
 })
