@@ -5,3 +5,7 @@ export interface IResult {
     shortDescription: string;
     description: string;
 }
+
+export interface IResultExtended extends IResult {
+    tags: string[];
+}
