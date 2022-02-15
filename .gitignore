@@ -1,0 +1,11 @@
+# Common folders
+node_modules/
+
+#Envoiroment files
+.env
+
+# Ignore databases
+*.sqlite
+
+# Compiled files
+public/
